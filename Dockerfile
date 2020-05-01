@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache --update openvpn curl bash
+RUN apk add --no-cache --update openvpn bash
 COPY openvpn.sh /usr/bin/openvpn.sh
 
 VOLUME ["/ovpn"]
