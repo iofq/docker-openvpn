@@ -14,7 +14,7 @@ services:
   ⎸ network_mode: service:openvpn
     restart: unless-stopped
   openvpn:
-    image: iofq/openvpn
+    image: iofq/docker-openvpn
     name: openvpn
     cap_add:
     ⎸ - NET_ADMIN
